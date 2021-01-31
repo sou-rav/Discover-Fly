@@ -64,7 +64,7 @@ document.getElementById('bookNow').addEventListener('click', function () {
     const firstClassCount = getInputValue('firstClass');
     const economyCount = getInputValue('economy');
 
-    alert('Your booked ' + firstClassCount + ' First Class and ' + economyCount + ' Economy seats');
+    alert('You booked ' + firstClassCount + ' First Class and ' + economyCount + ' Economy seats');
     window.location.reload();
 
 })
